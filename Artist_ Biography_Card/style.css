@@ -1,0 +1,73 @@
+html, body{
+	margin: 0; padding: 0;
+
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(resim-2.jpg);
+	background-size: 300px;
+	background-repeat: repeat;
+}
+.container{
+	width: 600px;
+	height: 900px;
+	border: 10px solid #333;
+	margin: auto;
+	margin-top: 1%;
+	text-align: center;
+	border-radius: 20%;
+	background-color: #333;
+}
+
+button{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:30px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+button:hover{
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.content1 {
+	font-size: 40px;
+	
+}
+.content1 ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+}
+.fa-brands {
+	color: #eae0c2;
+}
+.fa-brands:hover{
+	color: orangered;
+}
+
+::marker{
+	content: none;
+}
+
+.resim1{
+	width: 100%;
+	border: 2px solid #eae0c2;
+	border-radius: 15%;
+}
+.paragraf{
+	color: white;
+	font-size: 25px;
+}
